@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~ngx-toastr/toastr";
+
+body{
+    position: relative;
+    min-width: 100%;
+    min-height: 100vh;
+
+}
+
+.primary-bg{
+    background-color: rgb(201, 89, 49);
+}
+
+.min-vh-100{
+    min-height: 100vh;
+}
